@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+}
+body{
+    color: black;
+}
+.card_img{
+    overflow: hidden;
+    height: 100%;
+}
+#tourCards img{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+  
+}
+.wholeCardBox{
+    width: 100%;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    background: white;
+}
+.cardTitle{
+    margin-bottom: 20px;
+}
+.cardTitle a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.listInfo{
+    list-style: none;
+}
+/* .listInfo li::before {
+    content: "\2022";
+    color:orange;
+    font-weight: bold;
+    font-size: large;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  } */
+  .featureList{
+      list-style: none;
+  }
+  .cardBody{
+      padding: 10px 10px;
+  }
+  .price{
+      color:orange;
+  }
+  
