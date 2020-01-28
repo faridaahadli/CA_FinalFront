@@ -7,7 +7,9 @@
 a {
     text-decoration: none;
 }
-
+.everyFirstSec{
+    padding-top: 100px;
+}
 section {
     padding-top: 60px;
     padding-bottom: 60px;

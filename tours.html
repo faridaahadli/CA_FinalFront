@@ -47,13 +47,13 @@
                 </div> -->
 
                             <li>
-                                <a href="#">Haqqımızda</a>
+                                <a href="aboutUs.html">Haqqımızda</a>
                             </li>
                             <li>
-                                <a href="#">Bloqlar</a>
+                                <a href="blogs.html">Bloqlar</a>
                             </li>
                             <li>
-                                <a href="#">Əlaqə
+                                <a href="contact.html">Əlaqə
 
                                 </a>
                             </li>
@@ -109,13 +109,13 @@
       </ul> -->
                     </li>
                     <li>
-                        <a href="#">Haqqımızda</a>
+                        <a href="aboutUs.html">Haqqımızda</a>
                     </li>
                     <li>
-                        <a href="#">Bloqlar</a>
+                        <a href="blogs.html">Bloqlar</a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="contact.html">
                             Əlaqə</a>
                     </li>
                     <li>
@@ -144,7 +144,7 @@
     <!-- Header End -->
 
     <!-- Tour Cards Start-->
-    <section id="tourCards">
+    <section id="tourCards" class="everyFirstSec">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8">
@@ -384,11 +384,27 @@
                  
                 </div>
                 <div class="col-md-4">
-                    <div class="sectionHeader text-center">
+                    <div class="filterHeader text-center">
                         <h4>Filters</h4>
                     </div>
-                
+                    <div class="row">
+                    <div class="col-md-12 mt-5">
+                <div class="dateTimefilt text-center">
+                    <input type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
                 </div>
+            </div>
+            <div class="col-md-12 mt-5">
+                <div class="priceFilter">
+                    <p>
+                        <label for="amount">Price range:</label>
+                        <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                      </p>
+                       
+                      <div id="slider-range"></div>
+                </div>
+            </div>
+                </div>
+            </div>
 
             </div>
             
@@ -475,7 +491,20 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
+<!-- Price filter -->
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <!-- Datetimepicker -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+<!-- My Js -->
     <script src="js/blank.js"></script>
+    <script src="js/tours.js"></script>
 </body>
 
 </html>

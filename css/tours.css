@@ -31,15 +31,7 @@ body{
 .listInfo{
     list-style: none;
 }
-/* .listInfo li::before {
-    content: "\2022";
-    color:orange;
-    font-weight: bold;
-    font-size: large;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-  } */
+
   .featureList{
       list-style: none;
   }
@@ -49,4 +41,54 @@ body{
   .price{
       color:orange;
   }
-  
+  .filterHeader h4{
+font-weight: bold;
+font-size: 30px;
+  }
+
+  /* Datetime Filter */
+  .dateTimefilt{
+      border:1px solid blueviolet;
+      border-radius:5px;
+      overflow: hidden;
+      background-color: white;
+  }
+  .dateTimefilt input{
+      width: 100%;
+      padding:10px 20px;
+      cursor: pointer;
+      text-align:center ;
+      font-weight: bold;
+      border: none;
+  }
+  .dateTimefilt input:focus{
+      outline:none;
+  }
+
+  /* Price Filter */
+  .priceFilter{
+
+  }
+.priceFilter label{
+    font-weight:bold;
+    font-size:18px;
+}
+  #amount{
+      background-color: transparent;
+     font-size:20px;
+  }
+  #amount:focus{
+      outline: none;
+  }
+
+
+  /* Style for Range */
+  .ui-widget-header,.ui-state-hover, .ui-widget-content .ui-state-hover,.ui-state-default, .ui-widget-content .ui-state-default{
+      background:rgb(30,144,255)!important;
+  }
+  .ui-state-default:focus{
+      outline: none;
+  }
+  .ui-slider .ui-slider-handle{
+    border-radius: 50%;
+  }

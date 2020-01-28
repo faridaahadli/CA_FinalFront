@@ -57,8 +57,6 @@ list-style: none;
 /* Comment Section Start */
 #comment textarea{
     resize: none;
-    
-   
     border:1px solid rgb(92,43,226);
     border-radius: 5px;
  

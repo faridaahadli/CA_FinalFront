@@ -1,26 +1,3 @@
-// $(document).ready(function(){
-// // Comment Section
-
-// let url="https://jsonplaceholder.typicode.com/comments"
-// $(".AddComment_btn").click(function(){
-//     $.ajax({
-//         url:"url",
-//         type:"GET",
-//         success: function(res){
-
-//         }
-//     })
-// })
-//     // Gallery Section
-//     $(".placeImg").magnificPopup({
-//         delegate: 'a',
-//         type: 'image',
-//         gallery: {
-//             enabled: true
-//         }
-//     })
-// })
-
 $(document).ready(function () {
     $(".replyBox").hide();
     // Comment Section
@@ -28,25 +5,18 @@ $(document).ready(function () {
     const url = "https://jsonplaceholder.typicode.com/todos"
     $("#commentSubmit").click(function () {
         $.ajax({
-            url: "url",
+            url: url,
             type: "Post",
             data:$("#cmtBox").serialize(),
         success: function (res) {
-                $("#commentHolder").append(res)
+            console.log(res)
+                $("#commentHolder").append(`<div>${res.id}</div>`)
             }
         })
     })
 
 
-    // Gallery Section
-    $(".placeImg").magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    })
-
+  
 let check=true;
 // Reply to Comment
 $(".reply").click(function(){
@@ -71,4 +41,3 @@ $(".reply").click(function(){
 //        event.stopPropagation()
 // })
 })
-
