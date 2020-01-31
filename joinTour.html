@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Calistoga&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5e88d62c54.js"></script>
+    <link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <link rel="stylesheet" href="css/blank.css">
+    <link rel="stylesheet" href="css/joinTour.css">
+    <title>Tura qatil</title>
+
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header id="navigation" class="p_fix">
+
+        <nav>
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-2 col-2">
+                        <div id="logo">
+                            <img src="img/home/mountain-hiking.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-8" id="nav_col">
+                        <ul class="nav_com " id="nav_menu">
+                            <li>
+                                <a href="home.html">Ana səhifə</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="tours.html">Turlar</a>
+                                <!-- <div id="dropData">
+                  <ul class="nav_com">
+                          <li><a>Hello</a></li>
+                  </ul>
+                </div> -->
+
+                            <li>
+                                <a href="aboutUs.html">Haqqımızda</a>
+                            </li>
+                            <li>
+                                <a href="blogs.html">Bloqlar</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Əlaqə
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <button class="btn_lg" onclick="location.href='logIn.html'" type="button">Şəxsi
+                                    hesab</button>
+                            </li>
+                            <li>
+                                <button class="btn_lg" onclick="location.href='register.html'"
+                                    type="button">Qeydiyyat</button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="col-md-2 col-2 text-center">
+                        <div class="search_box srchNorm">
+                            <input type="text" class="search" placeholder="Axtarış">
+                            <a href="#" class="search_btn">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                        <div id="burger_menu" class="brg_com">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            </div>
+
+            <div id="nav_menuRes" class="d-none">
+
+
+                <div class=" d-flex justify-content-end pr-3">
+                    <span class="brg_com">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+
+
+                <ul class="nav_com">
+                    <li>
+                        <a href="home.html">Ana sehife</a>
+                    </li>
+                    <li class="hasChild">
+                        <a href="tours.html">Turlar</a>
+                        <!-- <ul class="childMenu d-none">
+        <li>Hello</li>
+      </ul> -->
+                    </li>
+                    <li>
+                        <a href="aboutUs.html">Haqqımızda</a>
+                    </li>
+                    <li>
+                        <a href="blogs.html">Bloqlar</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Əlaqə</a>
+                    </li>
+                    <li>
+                        <button class="btn_lg" type="button">Şəxsi hesab</button>
+                    </li>
+                    <li>
+                        <button class="btn_lg" type="button">Qeydiyyat</button>
+                    </li>
+                    <li>
+
+                    </li>
+                </ul>
+
+                <div class="search_boxRes">
+                    <input type="text" class="searchRes" placeholder="Axtarış">
+                    <a href="#" class="search_btn">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+    <!-- Header End -->
+
+    <!-- Join tour Start -->
+    <section id="joinTour" class="everyFirstSec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form >
+                        <label for="quantity">Insan sayi:</label>
+                        <div class="number-input">
+                           
+                            <button type="button" class="minus"></button>
+                            <input class="quantity" min="0" name="quantity" value="1" type="number">
+                            <button type="button" class="plus"></button>
+                        </div>
+                        <div class="cardInput">
+                            <input type="text" name="cardNumber" maxlength="16" required placeholder="16 reqemli kod">
+                            <select name="cardType" id="">
+                                <option value="Visa">Visa</option>
+                                <option value="Master">Master</option>
+                            </select>
+                            <input type="password" maxlength="3" required placeholder="Guvenlik kodu">
+                        </div>
+                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Join Tour End -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="js/blank.js"></script>
+    <script src="js/joinTour.js"></script>
+</body>
+
+</html>

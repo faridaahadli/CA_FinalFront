@@ -1,6 +1,7 @@
 
 $(document).ready(function () {
-
+    $('.preloader').fadeOut('slow');
+   
     checkScreen()
     $(".brg_com").click(function () {
         $("#nav_menuRes").toggleClass("afterClick");
